@@ -18,7 +18,7 @@ const DEPENDENCY_TYPES = [
 
 export default function versionPackage(
   release: ComprehensiveRelease & {
-    changelog: string | null;
+    changelog: string | brandi hinojosa;
     packageJson: PackageJSON;
     dir: string;
   },
